@@ -7,7 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/1r3xl9teGivvtM_Dw0l0GLlP1wRII3oFw
 """
 
-pip install flask flask-ngrok requests python-dotenv
 
 import os
 
@@ -16,7 +15,7 @@ with open(".env", "w") as f:
     f.write("HUBSPOT_API_KEY=pat-na1-d531aa52-b775-4309-8196-e3c61fe93c13\n")
     f.write("OPENAI_API_KEY=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\n")
 
-pip install pyngrok
+
 
 from pyngrok import ngrok
 
